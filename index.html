@@ -1,28 +1,119 @@
 ---
 layout: index
-title: WB_Blog
+title: miquo blog
 ---
 
-<div id="home" class="prepend-1 span-13">
-
-  <blockquote>
-    <p>
-      Perfection is not when there’s nothing to add, but when there’s
-      nothing to take away.
-    </p>
-    <p class="author">- Antoine de Saint-Exupéry</p>
-  </blockquote>
-  
-  <h1>Posty</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
-  <h1>Projekty Open Source</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/wbzyl/jblog/">jBlog</a> — szablon jekyll-bloga</li>
-  </ul>
-
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>MGemba Blog</title>
+<meta name="keywords" content="" />
+<meta name="OffLimits" content="" />
+<link href="http://sigma.inf.ug.edu.pl/~mgemba/sp/default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+<div id="menu-container">
+  <div id="menu">
+    <ul id="main">
+      <li class="current_page_item"><a href="http://sigma.inf.ug.edu.pl/~mgemba/sp">Home</a></li>
+      <li><a href="http://secure.xfire.com/profile/miquo/">X-Fire Profil (O mnie)</a></li>
+    </ul>
+  </div>
+  <div id="header-search">
+    <form method="get" action="#">
+      <input type="text" name="s" id="search-input" size="15" value="" />
+    </form>
+  </div>
 </div>
+<!-- end header -->
+<div id="header">
+  <div id="logo">
+    <h1><a href="http://sigma.inf.ug.edu.pl/~mgemba/sp">miquo</a></h1>
+    <p>Blog</p>
+  </div>
+  <div id="splash">
+	<h2>Z myślą ...</h2>
+    <p>Ciekawość to delikatna roślinka, która, niezależie od pobudzania, potrzebuje przede wszystkim wolności.</p>
+  </div>
+</div>
+<div id="wrapper">
+  <!-- start page -->
+  <div id="page">
+    <div id="page-bgtop">
+      <div id="page-bgbtm">
+              <!-- start content -->
+        <div id="content">
+          <div class="post">
+             <h1>Posty</h1>
+              <ul>
+                {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
+          </div>
+        </div>
+        <!-- end content -->
+        <!-- start sidebars -->
+        <div id="sidebar1" class="sidebar">
+          <ul>
+            <li>
+              <h2>Pobieralnia:</h2>
+              <ul>
+                <li><a href="http://media.xfire.com/xfire/client/xfsite/xfire_installer.exe">X-Fire</a></li>
+                <li><a href="http://pro.hit.gemius.pl/hitredir/id=bDhFLZwwIXNpldH5WSzHpdVrrobZGGcdBdTmrCZy.rL.p7/url=http://static.gadu-gadu.pl/gg10.exe">GaduGadu 10</a></li>
+                <li><a href="ftp://ftp.freenet.de/pub/mirc.com/mirc634.exe">mIRC</a></li>
+                <li><a href="http://storage.dobreprogramy.pl/akcesoria/iview425_setup(dobreprogramy.pl).exe">InfranView</a></li>
+                <li><a href="http://www.softmania.eu/?d=files&a=get&item_id=291">SubEdit Player</a></li>
+                <li><a href="http://www.softmania.eu/?d=files&a=get&item_id=286">Winamp 5.571</a></li>
+                <li><a href="http://www.rarlab.com/rar/wrar391.exe">Winrar</a></li>
+                <li><a href="http://legalne.info/down/2185/4108/">Nokia Ovi Suite 2</a></li>
+                <li><a href="http://pliki.avg.pl/filedir/inst/avg_free_stf_eu_90_716a1803.exe">AVG Free</a></li>
+                <li><a href="http://www.instalki.pl/programy/download/przegladarki_www/get.php?file=firefox">Firefox</a></li>
+                <li><a href="http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.2/pl_PL/AdbeRdr920_pl_PL.exe">Acrobat Reader 9.2 PL</a></li>
+                <li><a href="http://www.skype.com/go/getskype">Skype 4.1</a></li>
+             </ul>
+            </li>
+           </ul>
+        </div>
+        <div id="sidebar2" class="sidebar">
+          <ul>
+            <li>
+              <h2>Przydatne:</h2>
+              <ul>
+                <li><a href="http://inf.ug.edu.pl/plan/">Plan Zajęć</a></li>
+                <li><a href="https://pe.ug.edu.pl/">Portal Edukacyjny</a></li>
+                <li><a href="http://www.informatykaug.pl/">Forum Informatykaug</a></li>
+                <li><a href="http://inf.ug.edu.pl/">Strona Instytutu Informatyki UG</a></li>
+                <li><a href="http://wazniak.mimuw.edu.pl/index.php?title=Strona_g%C5%82%C3%B3wna">Materiały pomocnicze 1</a></li>
+                <li><a href="http://matematyka.pisz.pl/strona/i21.html">Materiały pomocnicze 2</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Inne stronki:</h2>
+              <ul>
+                <li><a href="http://www.allegro.pl">Allegro</a></li>
+                <li><a href="http://www.wp.pl">Wirtualna Polska</a></li>
+                <li><a href="http://mail.google.com/mail/?hl=pl&tab=wm">Gmail</a></li>
+                <li><a href="http://www.demotywatory.pl">Demotywatory</a></li>
+                <li><a href="http://www.youtube.pl">Youtube</a></li>
+                <li><a href="http://www.peb.pl">Peb</a></li>
+                <li><a href="http://www.torrenty.org">Torrenty.org</a></li>
+                <li><a href="http://www.isohunt.com">Isohunt</a></li>
+                <li><a href="http://gryonline.wp.pl">Gry online wp</a></li>
+                <li><a href="http://www.flv2mp3.com/">FLV to MP3 online</a></li>             
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- end sidebars -->
+        <div style="clear: both;">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <!-- end page -->
+</div>
+<div id="footer">
+  <p>&copy;2010 miquo. &nbsp;&bull;&nbsp; Wszelkie prawa zastrzeżone, ale róbta co chceta i kopiujta ile wlezie ;) </p>
+</div>
+</body>
+</html>

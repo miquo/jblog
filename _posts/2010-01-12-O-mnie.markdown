@@ -1,0 +1,26 @@
+---
+layout: post
+title: O mnie
+---
+
+<blockquote>
+<img src="../../../../images/ja.jpg" alt="[Miki i Dziubek:*:*<kochana moja>]" />
+<p><pre>
+  </pre>
+    O mnie:<pre>
+    
+   </pre>Jestem Mikołaj (miquo), bynajmniej pod takim nickiem najczęściej można mnie znaleźć. Ogólnie rzec można, że 
+   interesowałem się swego czasu bardzo dogłębnie (nałogowo wręcz) Call of Duty i muszę przyznać, że razem z paczką znajomych
+   bylismy w tym całkiem nieźli, jednek 2 lata temu poznałem dziewczynę (jestem z nią do dziś) i moje zainteresowania 
+   sie nieco zmieniły :D  teraz razem z nią gramy sobie w CS-a, czy fifke hehe, lubie długie romantyczne spacery i 
+   kolacje przy świecach uważam się za idealnego kandydata na chłopaka (moja dziewczyna nie narzeka na mnie hm zbyt czesto ) ;P
+   i świata poza nią nie widzę i bardzo mocno Ją kocham. i już na zawsze jestem jej, więc drogie panie i panowie
+   bardzo mi przykro, ale jestem zajety:D , a tak bardziej poważnie interesuje mnie szczególnie grafika komputerowa i w przyszłości zawodowej
+   myślę podążać tym tropem.:)
+   
+  </p>
+
+</blockquote>
+
+
+
